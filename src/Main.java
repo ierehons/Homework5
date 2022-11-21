@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        // case 1
-        System.out.println("case 1");
+// case 1.1
+        System.out.println("case 1.1");
         int age = 36;
         if (age >= 18) {
             System.out.println("поздравляем с совершеннолетием!");
@@ -9,8 +9,8 @@ public class Main {
         if (age < 18) {
             System.out.println("совершеннолетие ещё не наступил, нужно немного подождать.");
         }
-        // case 2
-        System.out.println("case 2");
+// case 1.2
+        System.out.println("case 1.2");
         int age2 = 25;
         if (age2 >= 7&&age2<18) {
             System.out.println("Ребёнок ходит в школу");
@@ -21,8 +21,8 @@ public class Main {
         if (age2 >= 24) {
             System.out.println("человек окончил университет и ему пора искать первую работу");
         }
-        // case 1.3
-        System.out.println("case 3");
+// case 1.3
+        System.out.println("case 1.3");
 int totalPlace = 102;
 int seatingPlaces =60;
 int standingPlaces= totalPlace - seatingPlaces;
@@ -40,7 +40,7 @@ if (usedStandingPlaces<standingPlaces){
         if (usedStandingPlaces>=standingPlaces){
             System.out.println("Сотячих мест нет!");
         }
-        //case 2.1
+//case 2.1
         System.out.println("case 2.1");
         int yearsOld = 6;
         if (yearsOld >= 18) {
@@ -48,7 +48,7 @@ if (usedStandingPlaces<standingPlaces){
         }        else {
             System.out.println("совершеннолетие ещё не наступил, нужно немного подождать.");
         }
-        // case 2.2
+// case 2.2
         System.out.println("case 2.2");
         int yearsOld2 = 21;
         if (yearsOld2 >= 7&& yearsOld2 < 18) {
@@ -59,7 +59,7 @@ if (usedStandingPlaces<standingPlaces){
         else if (yearsOld2 >= 24) {
             System.out.println("человек окончил университет и ему пора искать первую работу");
         }
-        // case 2.3
+// case 2.3
         System.out.println("case 2.3");
         int Place = 102;
         int seating =60;
@@ -100,7 +100,7 @@ if (usedStandingPlaces<standingPlaces){
         } else {
             System.out.println("Ребёнок может кататься на аттракционахбез сопровождения взрослого");
         }
-// case 3
+// case 3.3
         System.out.println("case 3.3");
         int one=-119;
         int two=129;
